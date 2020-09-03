@@ -1,1 +1,2 @@
-alert('Hello world'); //
+const nombre =  prompt('Cual es tu nombre?');
+document.querySelector('.contenido').innerHTML = `${nombre} Esta aprendiendo js moderno`;
