@@ -1,5 +1,5 @@
 //pregunta al usuario su nombre
-const nombre =  prompt('Cual es tu nombre?');
+// const nombre =  prompt('Cual es tu nombre?');
 
 //toma el codigo y lo muestra eb pantalla
 document.querySelector('.contenido').innerHTML = `${nombre} Esta aprendiendo js moderno`;
