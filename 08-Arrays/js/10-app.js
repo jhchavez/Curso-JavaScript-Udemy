@@ -1,21 +1,13 @@
-const carrito = [
-    { nombre: 'Monitor 27 Pulgadas', precio: 500 },
-    { nombre: 'Televisión', precio: 100 },
-    { nombre: 'Tablet', precio: 200 },
-    { nombre: 'Audifonos', precio: 300 },
-    { nombre: 'Teclado', precio: 400 },
-    { nombre: 'Celular', precio: 700 },
-]
+//Los array contienen multiples elementos
+const numeros = [10, 20, 30]; //se consiguen mas ejemplos de esta forma
 
-const nuevoArreglo = carrito.map( function(producto) {
-    return `${producto.nombre} - Precio: ${producto.precio }` ;
-} )
+const meses = new Array('Enero', 'Febrero', 'Marzo'); //forma dos de hacer array
 
+console.log(numeros);
+console.log(meses);
 
-const nuevoArreglo2 = carrito.forEach( function(producto) {
-    return `${producto.nombre} - Precio: ${producto.precio }` ;
-} )
+//Crearemos un array que contiene datos de todo tipo
+//Puede haber un array dentro de otro array
+const deTodo = ["Hola", 10, true, "si", null, { nombre: 'Juan', trabajo: 'Programador'}, [1, 2, 3]];
 
-
-console.log(nuevoArreglo);
-console.log(nuevoArreglo2);
+console.log(deTodo);
